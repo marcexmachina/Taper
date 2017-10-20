@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		980749F21F996A5300A7C173 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980749F11F996A5300A7C173 /* AppDelegate.swift */; };
-		980749F41F996A5300A7C173 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 980749F31F996A5300A7C173 /* art.scnassets */; };
 		980749F61F996A5300A7C173 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980749F51F996A5300A7C173 /* ViewController.swift */; };
 		980749F91F996A5300A7C173 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980749F71F996A5300A7C173 /* Main.storyboard */; };
 		980749FB1F996A5300A7C173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980749FA1F996A5300A7C173 /* Assets.xcassets */; };
 		980749FE1F996A5300A7C173 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980749FC1F996A5300A7C173 /* LaunchScreen.storyboard */; };
 		98074A091F996A5300A7C173 /* TaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98074A081F996A5300A7C173 /* TaperTests.swift */; };
+		9811A8251F9985A800D4F0DF /* SCNNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9811A8241F9985A800D4F0DF /* SCNNode+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		980749EE1F996A5300A7C173 /* Taper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		980749F11F996A5300A7C173 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		980749F31F996A5300A7C173 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		980749F51F996A5300A7C173 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		980749F81F996A5300A7C173 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		980749FA1F996A5300A7C173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		98074A041F996A5300A7C173 /* TaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98074A081F996A5300A7C173 /* TaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaperTests.swift; sourceTree = "<group>"; };
 		98074A0A1F996A5300A7C173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9811A8241F9985A800D4F0DF /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				980749F11F996A5300A7C173 /* AppDelegate.swift */,
-				980749F31F996A5300A7C173 /* art.scnassets */,
 				980749F51F996A5300A7C173 /* ViewController.swift */,
 				980749F71F996A5300A7C173 /* Main.storyboard */,
 				980749FA1F996A5300A7C173 /* Assets.xcassets */,
 				980749FC1F996A5300A7C173 /* LaunchScreen.storyboard */,
 				980749FF1F996A5300A7C173 /* Info.plist */,
+				9811A8241F9985A800D4F0DF /* SCNNode+Extensions.swift */,
 			);
 			path = Taper;
 			sourceTree = "<group>";
@@ -182,7 +182,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				980749F41F996A5300A7C173 /* art.scnassets in Resources */,
 				980749FE1F996A5300A7C173 /* LaunchScreen.storyboard in Resources */,
 				980749FB1F996A5300A7C173 /* Assets.xcassets in Resources */,
 				980749F91F996A5300A7C173 /* Main.storyboard in Resources */,
@@ -203,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9811A8251F9985A800D4F0DF /* SCNNode+Extensions.swift in Sources */,
 				980749F61F996A5300A7C173 /* ViewController.swift in Sources */,
 				980749F21F996A5300A7C173 /* AppDelegate.swift in Sources */,
 			);
